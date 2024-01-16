@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-box">
+        <input id="text" ></input>
+        <div class="screen"></div>
+        <div class="buttons">
+            <div id="row1">
+                <button onclick="clearDisplay()" class="button" id="AC">AC</button>
+                <button onclick="appendToDisplay(`%`)" class="button" id="perc">%</button>
+                <button onclick="appendToDisplay(`/`)" class="button" id="divide">/</button>
+            </div>
+            <div id="row2">
+                <button onclick="appendToDisplay(`7`)" class="button" id="seven">7</button>
+                <button onclick="appendToDisplay(`8`)" class="button" id="eight">8</button>
+                <button onclick="appendToDisplay(`9`)" class="button" id="nine">9</button>
+                <button onclick="appendToDisplay(`*`)" class="button" id="multiply">x</button>
+            </div>
+            <div id="row3">
+                <button onclick="appendToDisplay(`4`)" class="button" id="four">4</button>
+                <button onclick="appendToDisplay(`5`)" class="button" id="five">5</button>
+                <button onclick="appendToDisplay(`6`)" class="button" id="six">6</button>
+                <button onclick="appendToDisplay(`-`)" class="button" id="minus">-</button>
+            </div>
+            <div id="row4">
+                <button onclick="appendToDisplay(`1`)" class="button" id="one">1</button>
+                <button onclick="appendToDisplay(`2`)" class="button" id="two">2</button>
+                <button onclick="appendToDisplay(`3`)" class="button" id="three">3</button>
+                <button onclick="appendToDisplay(`+`)" class="button" id="plus">+</button>
+            </div>
+            <div id="row5">
+                <button onclick="appendToDisplay(`0`)" class="button" id="zero">0</button>
+                <button onclick="appendToDisplay(`.`)" class="button" id="point">.</button>
+                <button onclick="calculate()" class="button" id="equal">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

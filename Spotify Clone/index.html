@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <!-- Linking the stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Linking the icon for the tab -->
+    <link rel="shortcut icon" href="Spotify_favicon.png" type="image/x-icon">
+    <!-- linking Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Making the side bar -->
+    <div class="sidebar">
+        <!-- The spotify logo on the top of the side bar -->
+        <div class="logo">
+            <a href="">
+                <img src="Spotify Logo.png" alt="logo">
+            </a>
+        </div>
+        <!-- The mavigation buttons beneath the logo -->
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Search</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fas fa-book"></span>
+                        <span>Your Library</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span>Create Playlist</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span>Liked Songs</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- The policy buttons near the bottom of the side bar -->
+        <div class="policies">
+            <ul>
+                <li>
+                    <a href="">Cookies</a>
+                </li>
+                <li>
+                    <a href="">Privacy</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Making the top bar -->
+    <div class="main-container">
+        <div class="topbar">
+            <!-- The previous and next buttons -->
+            <div class="prev-next-buttons">
+                <button type="button" class="fa fas fa-chevron-left"></button>
+                <button type="button" class="fa fas fa-chevron-right"></button>
+            </div>
+
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <!-- Sign up button -->
+                        <a href="">Sign Up</a>
+                    </li>
+                </ul>
+                <!-- Log in button -->
+                <button id="log-in" type="button">Log In</button>
+            </div>
+        </div>
+        <!-- Spotify playlist first row -->
+        <div class="spotify-playlists">
+            <h2>For You</h2>
+
+            <div class="list">
+                <div id="1" class="item">
+                    <img src="1.jpg" alt="">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>9:45 Mega Mashup</h4>
+                    <p>Harshal Music | Prabh X The PropheC X Ap Dhillon X Talwiinder</p>
+                </div>
+                <div id="2" class="item">
+                    <img src="2.jpg" alt="">
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Deewane Hum Nahi Hote</h4>
+                    <p>Aditya Yadav | Reverb Sounds | TextAudio Lyrics</p>
+                </div>
+                <div id="3" class="item">
+                    <img src="3.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>عاشق مجنون</h4>
+                    <p>محمود التركي - عاشق مجنون ( فيديو كليب ) | 2023 </p>
+                </div>
+                <div id="4" class="item">
+                    <img src="4.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Players</h4>
+                    <p>Badshah X Karan Aujla - Players (Official Video) | 3:00 AM Sessions</p>
+                </div>
+                <div id="5" class="item">
+                    <img src="5.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>White Brown Black</h4>
+                    <p>White Brown Black - Avvy Sra | Karan Aujla Amanninder Singh</p>
+                </div>
+                <div id="6" class="item">
+                    <img src="6.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Dilawara</h4>
+                    <p>Dilawara | The PropheC | Ezu | Official</p>
+                </div>
+                <div id="7" class="item">
+                    <img src="7.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Jalebi Baby</h4>
+                    <p>Tesher x Jason Derulo - Jalebi Baby (Official Video)</p>
+                </div>
+            </div>
+        </div>
+        <!-- Spotify playlist second row -->
+        <div class="spotify-playlists">
+            <h2>Focus</h2>
+            <div class="list">
+                <div id="8" class="item">
+                    <img src="8.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Habibi</h4>
+                    <p>DJ Gimi Ox Habibi Slowed Reverb Bass Boosted</p>
+                </div>
+                <div id="9" class="item">
+                    <img src="9.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Love Nwantiti x Sajna</h4>
+                    <p>Love Nwantiti x Sajna (Remix) | Say Yes To The Dress</p>
+                </div>
+                <div id="10" class="item">
+                    <img src="10.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Mi Amor</h4>
+                    <p>Oh Gabru Nu Billo Kehre Chakra Ch Paya | Ft Sonam Bajwa</p>
+                </div>
+                <div id="11" class="item">
+                    <img src="11.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Kukkad</h4>
+                    <p>Kukkad - Student Of The Year - Official Full Song</p>
+                </div>
+                <div id="12" class="item">
+                    <img src="12.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Father Stretch My Hands Pt. 1</h4>
+                    <p>Provided to YouTube by Universal Music Group Father...</p>
+                </div>
+                <div id="13" class="item">
+                    <img src="13.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Luxury</h4>
+                    <p>Luxury (Slowed) - Azealia Banks</p>
+                </div>
+                <div id="14" class="item">
+                    <img src="14.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Moonlight</h4>
+                    <p>Kali uchis - Moonlight [Perfectly Slowed x Reverb]</p>
+                </div>
+            </div>
+        </div>
+        <!-- Spotify playlist third row -->
+        <div class="spotify-playlists">
+            <h2>Sound of India</h2>
+            <div class="list">
+                <div id="15" class="item">
+                    <img src="15.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Baller X Brown Munde</h4>
+                    <p>Baller X Brown Munde - Mashup | Shubh & AP Dhillon...</p>
+                </div>
+                <div id="16" class="item">
+                    <img src="16.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>No Love X Aaja We Mahiya x Against All Odd</h4>
+                    <p>No Love X Aaja We Mahiya x Against All Odd - Mashup | Shubh</p>
+                </div>
+                <div id="17" class="item">
+                    <img src="17.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Pehle Bhi Main</h4>
+                    <p>Pehle Bhi Main (Slowed + Reverb) | Vishal Mishra | Animal | SR Lofi</p>
+                </div>
+                <div id="18" class="item">
+                    <img src="18.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Let Her Go x Husn</h4>
+                    <p>Let Her Go x Husn (Gravero Mashup) | Anuv Jain</p>
+                </div>
+                <div id="19" class="item">
+                    <img src="19.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Arcade x Mann Mera</h4>
+                    <p>Arcade x Mann Mera (Mashup) Full Version | Gravero...</p>
+                </div>
+                <div id="20" class="item">
+                    <img src="20.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>kinna Chir</h4>
+                    <p>kinna Chir [Slowed + Reverb] - ThePophec | Punjabi Lofi So...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="player">
+        <!-- Progress of the song -->
+        <span class="time" id="first-time">00:00</span>
+        <!-- main player -->
+        <input id="progress" type="range" value="0" min="0" max="100">
+        <!-- Duration of the song -->
+        <span class="time" id="last-time">00:00</span>
+    </div>
+    </div>
+    <!-- Linking fontawesome -->
+    <script src="https://kit.fontawesome.com/ef9a692198.js" crossorigin="anonymous"></script>
+    <!-- linking javascipt -->
+    <script src="script.js"></script>
+</body>
+
+</html>
